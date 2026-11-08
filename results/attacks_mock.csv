@@ -1,0 +1,13 @@
+mode,attack,legit_commands_ok,mode_before,mode_after,attack_succeeded,detail,rejections_whole_run
+plain,replay,True,GUIDED,LAND,True,1 datagrams replayed,{}
+plain,injection,True,GUIDED,LAND,True,spoofed sysid 255 / compid 190,{}
+plain,tampering,True,GUIDED,LAND,True,DO_SET_MODE LOITER rewritten to LAND,{}
+mavsign,replay,True,GUIDED,GUIDED,False,1 datagrams replayed,"{""rejected_signature"": 3}"
+mavsign,injection,True,GUIDED,GUIDED,False,spoofed sysid 255 / compid 190,"{""rejected_signature"": 3}"
+mavsign,tampering,False,GUIDED,GUIDED,False,DO_SET_MODE LOITER rewritten to LAND,"{""rejected_signature"": 3}"
+ascon,replay,True,GUIDED,GUIDED,False,1 datagrams replayed,"{""rejected_replay"": 1, ""rejected_unprotected"": 1, ""rejected_auth_fail"": 1}"
+ascon,injection,True,GUIDED,GUIDED,False,spoofed sysid 255 / compid 190,"{""rejected_replay"": 1, ""rejected_unprotected"": 1, ""rejected_auth_fail"": 1}"
+ascon,tampering,False,GUIDED,GUIDED,False,DO_SET_MODE LOITER rewritten to LAND,"{""rejected_replay"": 1, ""rejected_unprotected"": 1, ""rejected_auth_fail"": 1}"
+kem,replay,True,GUIDED,GUIDED,False,1 datagrams replayed,"{""rejected_replay"": 1, ""rejected_unprotected"": 1, ""rejected_auth_fail"": 1}"
+kem,injection,True,GUIDED,GUIDED,False,spoofed sysid 255 / compid 190,"{""rejected_replay"": 1, ""rejected_unprotected"": 1, ""rejected_auth_fail"": 1}"
+kem,tampering,False,GUIDED,GUIDED,False,DO_SET_MODE LOITER rewritten to LAND,"{""rejected_replay"": 1, ""rejected_unprotected"": 1, ""rejected_auth_fail"": 1}"

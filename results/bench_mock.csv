@@ -1,0 +1,5 @@
+mode,n,lost,rtt_mean_ms,rtt_p50_ms,rtt_p95_ms,g2v_bytes_per_pkt,v2g_bytes_per_pkt,cpu_ms_per_cmd,handshake_ms,connect_ms
+plain,1000,0,1.154,1.15,1.255,44.0,22.0,0.294,,419.9
+mavsign,1000,0,1.166,1.157,1.26,57.0,35.0,0.319,,426.4
+ascon,1000,0,1.328,1.154,2.305,69.0,47.0,0.939,,436.1
+kem,1000,0,1.303,1.161,2.266,69.0,47.0,0.917,51.5,899.5

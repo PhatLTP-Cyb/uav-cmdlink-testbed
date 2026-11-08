@@ -1,0 +1,8 @@
+operation,us_per_op
+"HMAC-SHA256 (MAVLink signing primitive), 45 B",1.1
+"Ascon-AEAD128 encrypt, 45 B",124.1
+"Ascon-AEAD128 decrypt, 45 B",122.5
+ML-KEM-768 encaps,3478.7
+ML-KEM-768 decaps,4596.7
+ML-DSA-44 sign,29308.2
+ML-DSA-44 verify,5627.6

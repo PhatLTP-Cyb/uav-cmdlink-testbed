@@ -1,0 +1,7 @@
+pymavlink>=2.4.40
+cryptography>=42
+kyber-py==1.2.0
+dilithium-py>=1.1
+psutil
+matplotlib
+pytest
